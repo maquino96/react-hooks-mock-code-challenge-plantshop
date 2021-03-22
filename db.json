@@ -41,6 +41,18 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Matt",
+      "image": "Test Image",
+      "price": "123",
+      "id": 8
+    },
+    {
+      "name": "MaxyMax",
+      "image": "testurl",
+      "price": "321",
+      "id": 9
     }
   ]
 }
