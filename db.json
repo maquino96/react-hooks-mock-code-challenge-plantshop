@@ -4,7 +4,8 @@
       "id": 1,
       "name": "Aloe",
       "image": "./images/aloe.jpg",
-      "price": 15.99
+      "price": "12.91",
+      "updatedPrice": "12.99"
     },
     {
       "id": 2,
@@ -43,15 +44,15 @@
       "price": 55
     },
     {
-      "name": "Matt",
-      "image": "Test Image",
-      "price": "123",
+      "name": "Matt's Plant",
+      "image": "TestURL",
+      "price": "19.91",
       "id": 8
     },
     {
-      "name": "MaxyMax",
-      "image": "testurl",
-      "price": "321",
+      "name": "Gabe's Plant",
+      "image": "TestURL",
+      "price": "20.21",
       "id": 9
     }
   ]

@@ -9,8 +9,7 @@ function PlantPage() {
   const [plants, setPlants] = useState([])
   const [search,setSearch] = useState('')
   const [filter, setFilter] = useState([])
-  console.log(search)
-
+  // console.log(search)
   // console.log(plants)
 
 
@@ -42,7 +41,7 @@ function PlantPage() {
     <main>
       <NewPlantForm onSubmitPlant={handleSubmitPlant} />
       <Search onSearch={handleSearch} search={search}/>
-      <PlantList plants={!search.length > 0 ? plants : filter}/>
+      <PlantList fetchAPI={fetchAPI} plants={!search.length > 0 ? plants : filter}/>
     </main>
   );
 }

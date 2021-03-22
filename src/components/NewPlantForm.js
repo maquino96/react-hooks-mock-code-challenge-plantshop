@@ -16,7 +16,14 @@ function NewPlantForm({onSubmitPlant}) {
       body: JSON.stringify({name, image, price}) 
     })
       .then(r => r.json())
-      .then(newPlant => onSubmitPlant(newPlant)) 
+      .then(newPlant => {
+        
+      onSubmitPlant(newPlant)
+      setName('')
+      setImage('')
+      setPrice('')
+      
+      }) 
   }
 
   return (
